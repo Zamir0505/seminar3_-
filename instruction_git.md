@@ -128,3 +128,13 @@ VSСode дает возможность выбрать какое изменен
 
 1. имя удаленного репозитория, например, origin;
 1. URL-адрес удаленного репозитория, например, https://github.com/OWNER/REPOSITORY.git
+
+Пример: 
+
+    git remote add origin https://github.com/OWNER/REPOSITORY.git
+
+*  ## Далее выбираем ветку, куда будем грузить:
+
+       git branch -M main
+@где main - имя ветки
+
